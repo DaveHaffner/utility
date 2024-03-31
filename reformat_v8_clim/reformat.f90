@@ -1,5 +1,7 @@
 program reformat
+  implicit none
   integer(kind=4) :: k, j, i, month
+  integer(kind=4) :: ios
   real(kind=4) :: lat, toz
   real(kind=4), dimension(11) :: prf
   character(len=256) :: filename
